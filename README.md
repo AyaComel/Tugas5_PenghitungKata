@@ -192,5 +192,5 @@ Dengan kode ini, sebuah dialog JFileChooser akan muncul sehingga Anda bisa memil
 
 ## Pembuat
 
-Nama  : Siti Safira
-NPM   : 2210010336
+Nama  : Cahya Hayyuni
+NPM   : 2210010118
