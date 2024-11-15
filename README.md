@@ -86,11 +86,11 @@ Fungsi ini digunakan untuk menghitung jumlah kata, karakter, kalimat, dan paragr
 • DocumentListener pada JTextArea untuk menghitung secara realtime
 ~~~
 // Add DocumentListener to JTextArea for real-time counting
-        textAreaInputKata.getDocument().addDocumentListener(new DocumentListener() {
-            public void changedUpdate(DocumentEvent e) { hitungText(); }
-            public void removeUpdate(DocumentEvent e) { hitungText(); }
-            public void insertUpdate(DocumentEvent e) { hitungText(); }
-        });    
+        TextArea.getDocument().addDocumentListener(new DocumentListener() {
+            public void changedUpdate(DocumentEvent e) { HitungKata(); }
+            public void removeUpdate(DocumentEvent e) { HitungKata(); }
+            public void insertUpdate(DocumentEvent e) { HitungKata(); }
+        });   
     }
 
 Kode DocumentListener ini akan memanggil metode hitungText() setiap kali ada perubahan di textArea, baik saat teks ditambahkan atau dihapus, sehingga memungkinkan aplikasi untuk menghitung jumlah kata, karakter, kalimat, dan paragraf secara real-time.
