@@ -92,7 +92,7 @@ Fungsi ini digunakan untuk menghitung jumlah kata, karakter, kalimat, dan paragr
             public void insertUpdate(DocumentEvent e) { HitungKata(); }
         });   
     }
-
+~~~
 Kode DocumentListener ini akan memanggil metode hitungText() setiap kali ada perubahan di textArea, baik saat teks ditambahkan atau dihapus, sehingga memungkinkan aplikasi untuk menghitung jumlah kata, karakter, kalimat, dan paragraf secara real-time.
 
 # 5. Variasi:
